@@ -18,3 +18,5 @@ There are ways to do this without Node, but it's much more difficult to code. It
 Try running the following code to see the 'non-blocking' in action. Notice that the results come back in a different order to what they were asked for in:
 
 `node app.js chalkers andrewstelmach nickpettit`
+
+(testing has been deprecated for this, since it was just a little 'spike' to explore Node. However, I did have testing up and running to begin with, using "jasmine-node".
