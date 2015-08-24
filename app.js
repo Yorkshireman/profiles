@@ -1,7 +1,5 @@
-var Profile = function() {
-  Profile.prototype.printMessage = function(username, badgeCount, points) {
-    return username + " has " + badgeCount + " total badge(s) " + "and " + points + " points in Javascript";
-  };
-};
+var profile = require('./profile');
 
-module.exports = Profile;
+var users = process.argv.slice(2);
+
+users.forEach(profile.get);
