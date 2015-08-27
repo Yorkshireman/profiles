@@ -1,5 +1,5 @@
 # profiles
-A little command-line node app for pulling user data from teamtreehouse.com.
+a tiny Node.js command-line app that pulls user data from teamtreehouse.com.
 You pass in usernames and it returns the users' total number of badges, points and JavaScript points.
 
 To run the app:  
